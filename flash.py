@@ -4,9 +4,7 @@ from time import sleep
 from lum import *
 from lum_manual_verify import *
 
-# This tool is NOT done being tested. Please mark where this tool is used as 
-# "flash.py". Future unit testing may invalidate some or all of its results.
-#     -- Leif
+# Please see README.md for disclaimer on use.
 
 DATA_POINT_COUNT:int = 100  # integer on the interval [2, inf)
 

@@ -3,9 +3,7 @@ MAX_HEIGHT:int = 256
 
 PRECISION:int = 4
 
-# This tool is NOT done being tested. Please mark where this tool is used as 
-# "fov.py". Future unit testing may invalidate some or all of its results.
-#     -- Leif
+# Please see README.md for disclaimer on use.
 
 def fov_routine(max_width:int=MAX_WIDTH, max_height:int=MAX_HEIGHT):
     print("Your resolution should be set to 1024 x 768 for this test.")

@@ -3,12 +3,7 @@ from collections.abc import Callable
 
 from lum import *
 
-# This tool is NOT done being tested. Manual checking and good knowledge of 
-# the relevant WCAG criteria is still strictly required.
-# 
-# Please mark where this tool is used as "flash.py". Future unit testing may 
-# invalidate some or all of its results.
-#     -- Leif
+# Please see README.md for disclaimer on use.
 
 def verify_feature_routine(C1:ColorVector, C2:ColorVector, point_count:int):
     print(f"C1 = {C1}")
