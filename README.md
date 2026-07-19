@@ -7,6 +7,7 @@ Future unit testing is pending and may invalidate some or all of the results.
 
 ## fovtool
 Run "fov.py" to use. Used to compare a given CSS pixel area with a nominal area.
+If the element fails this check, proceed to using flashtool before making a verdict.
 
 ## flashtool
 Run "flash.py" to use. Used to compare two colors against the WCAG definitions of "general flash threshold" and "red flash threshold"
