@@ -5,8 +5,8 @@ with "fovtool" or "flashtool" depending on the program used.
 Future unit testing is pending and may invalidate some or all of the results.
     -- Leif
 
-## fov.py
-Used to compare a given CSS pixel area with a nominal area.
+## fovtool
+Run "fov.py" to use. Used to compare a given CSS pixel area with a nominal area.
 
-## flash.py
-Used to compare two colors against the WCAG definitions of "general flash threshold" and "red flash threshold"
+## flashtool
+Run "flash.py" to use. Used to compare two colors against the WCAG definitions of "general flash threshold" and "red flash threshold"
