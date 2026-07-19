@@ -1,7 +1,6 @@
 ## Disclaimer
 These tools are NOT done being tested. Please mark where the tools are used 
 with "fovtool" or "flashtool" depending on the program used. 
-    (note: "fov.py" creates an irrelevant link in Google Sheets, so probably best to avoid that.)
 
 Future unit testing is pending and may invalidate some or all of the results.
     -- Leif
