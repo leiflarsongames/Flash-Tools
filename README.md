@@ -22,4 +22,4 @@ Compares the given area against how much of the "nominal area" it takes up.
 ## flashtool
 Use fovtool first.
 
-Run "flash.py" to use. Used to compare two colors against the WCAG definitions of "general flash threshold" and "red flash threshold"
+Run "flash.py" to use. Used to compare two colors against the WCAG 2.0 definitions of "general flash threshold" and "red flash threshold"
