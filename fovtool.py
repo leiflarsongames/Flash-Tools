@@ -1,5 +1,5 @@
-MAX_WIDTH:int  = 341
-MAX_HEIGHT:int = 256
+MAX_WIDTH:int  = 341    # DO NOT CHANGE THIS VALUE. Please change the parameters sent to `fov_routine` instead.
+MAX_HEIGHT:int = 256    # DO NOT CHANGE THIS VALUE. Please change the parameters sent to `fov_routine` instead.
 
 PRECISION:int = 4
 
@@ -10,7 +10,7 @@ def fov_routine(max_width:int=MAX_WIDTH, max_height:int=MAX_HEIGHT):
     print("Get the object's actual CSS pixel size using inspect element (or failing that, use the planimeter extension to estimate it).")
     print("Copy the dimensions into the terminal below.")
     print()
-    print(f"We are to see what proportion of a {max_width} x {max_height} area your selection will take up.")
+    print(f"If your browser's window is set to 1024 x 768 px, then the nominal viewing angle should be considered as {max_width} x {max_height}.")
     if MAX_WIDTH != max_width or MAX_HEIGHT != max_height:
         print()
         print(f"IMPORTANT: max_width and max_height have been changed to [{max_width} x {max_height}] ... specification suggests [{MAX_WIDTH} x {MAX_HEIGHT}] as safe!")

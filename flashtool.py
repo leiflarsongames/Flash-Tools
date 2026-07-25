@@ -93,10 +93,11 @@ def is_restart_cmd(cmd:str) -> bool:
 
 def show_help_dialogue() -> bool:
     print()
+    print("Please read the disclaimer in the README.")
+    print("")
     print("Type \"q\" or \"quit\" to end the program.")
     print("Type \"r\" or \"restart\" to restart the program.")
     print("Type \"h\" or \"help\" to show this dialogue again.")
     print()
-
 
 main()
