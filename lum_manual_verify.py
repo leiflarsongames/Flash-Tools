@@ -4,6 +4,7 @@ from collections.abc import Callable
 from lum import *
 
 # Please see README.md for disclaimer on use.
+# This is not a comprehensive test, and should NOT be considered as such.
 
 def verify_feature_routine(C1:ColorVector, C2:ColorVector, point_count:int):
     print(f"C1 = {C1}")

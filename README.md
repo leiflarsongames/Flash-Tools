@@ -1,6 +1,8 @@
 ## Disclaimer
 The tools alone are NOT comprehensive tests for WCAG's 2.3.1 Three Flashes Or 
-Below criteria.
+Below criteria. Ensure that you read and understand the WCAG's criteria, and evaluate the tool carefully before use.
+
+Due to the nature of the problem domain, do not use this for unapproved work -- I can't vouch for this tool being useful in every possible case.
 
 In their current state, they cannot be guaranteed to be accurate, either. These 
 tools are NOT done being tested. 
@@ -13,7 +15,7 @@ depending on the program used.
 ## fovtool
 Run "fov.py" to use. Used to compare a given CSS pixel area against a nominal area of 341 x 256 px.
 
-NOTE: This tool is ONLY useful at a resolution of 1024 x 768 px, unless the code is modified to fit a different need.
+NOTE: This tool is ONLY useful at a browser resolution of 1024 x 768 px, unless the code is modified to fit a different need.
 
 ### Use
 If a \[CAUTION] result is received, continue on to using flashtool.

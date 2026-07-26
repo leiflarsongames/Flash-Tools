@@ -6,6 +6,8 @@ PRECISION:int = 4
 # Please see README.md for disclaimer on use.
 
 def fov_routine(max_width:int=MAX_WIDTH, max_height:int=MAX_HEIGHT):
+    print("Please read the disclaimer in the README.")
+    print("")
     print("Your resolution should be set to 1024 x 768 for this test.")
     print("Get the object's actual CSS pixel size using inspect element (or failing that, use the planimeter extension to estimate it).")
     print("Copy the dimensions into the terminal below.")
