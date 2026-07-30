@@ -13,7 +13,7 @@ depending on the program used.
     -- Leif
 
 ## fovtool
-Run "fov.py" to use. Used to compare a given CSS pixel area against a nominal area of 341 x 256 px.
+Run "fovtool.py" to use. Used to compare a given CSS pixel area against a nominal area of 341 x 256 px.
 
 NOTE: This tool is ONLY useful at a browser resolution of 1024 x 768 px, unless the code is modified to fit a different need.
 
@@ -29,4 +29,4 @@ Compares the given area against how much of the "nominal area" it takes up.
 ## flashtool
 Use fovtool first.
 
-Run "flash.py" to use. Used to compare two colors against the WCAG 2.0 definitions of "general flash threshold" and "red flash threshold"
+Run "flashtool.py" to use. Used to compare two colors against the WCAG 2.0 definitions of "general flash threshold" and "red flash threshold"
