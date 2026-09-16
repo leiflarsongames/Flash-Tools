@@ -12,6 +12,18 @@ results, please mark where the tools are used with "fovtool" or "flashtool"
 depending on the program used.
     -- Leif
 
+## Setup
+
+### If Python 3 is not installed
+Please install Python 3 and make it available by adding it to your system's PATH environmental variable. You may require a system restart after this.
+
+### Use
+Run either "fovtool.py" or "flashtool.py", depending on your needs.
+
+In order to get the values to plug into "fovtool.py", please get CSS pixel values OR use the planimeter [https://github.com/leiflarsongames/planimeter/] extension to estimate it. 
+
+_Screenshots are *not* reliable for counting CSS pixels._
+
 ## fovtool
 Run "fovtool.py" to use. Used to compare a given CSS pixel area against a nominal area of 341 x 256 px.
 
